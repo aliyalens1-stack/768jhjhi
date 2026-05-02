@@ -3,6 +3,8 @@ import { Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import { useAuthStore } from './stores/authStore';
 import MarketplaceHome from './pages/public/MarketplaceHome';
 import InspectPage from './pages/public/InspectPage';
+import SelectionRequestPage from './pages/public/SelectionRequestPage';
+import ComparisonPage from './pages/public/ComparisonPage';
 import SearchPage from './pages/public/SearchPage';
 import LiveForecastMapPage from './pages/public/LiveForecastMapPage';
 import ProviderPage from './pages/public/ProviderPage';
@@ -49,6 +51,8 @@ export default function App() {
         {/* Public */}
         <Route path="/" element={<MarketplaceHome />} />
         <Route path="/inspect" element={<InspectPage />} />
+        <Route path="/selection-request" element={<SelectionRequestPage />} />
+        <Route path="/comparison" element={<ComparisonPage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/zones" element={<LiveForecastMapPage />} />
         <Route path="/provider/:slug" element={<ProviderPage />} />

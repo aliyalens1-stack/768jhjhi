@@ -109,13 +109,16 @@
     }
   },
   "welcome": {
-    "kicker": "WERKSTATT-MARKTPLATZ",
-    "title": "Auto­reparatur ohne\nAnrufe und Feilschen",
-    "subtitle": "Beschreiben Sie das Problem — das System findet eine Werkstatt in der Nähe und zeigt Preis und Ankunftszeit.",
-    "find_master": "Mechaniker in 5 Minuten finden",
-    "find_master_hint": "1 Tipp — die Suche läuft schon",
-    "start_earning": "Jetzt verdienen",
-    "start_earning_hint": "Aufträge in Ihrer Nähe annehmen",
+    "kicker": "AUTO SELECTION · PRÜFUNG VOR DEM KAUF",
+    "title": "Kaufen Sie\nkein Auto blind",
+    "subtitle": "mobile.de-Link einfügen oder Fahrzeug-Picking anfragen — ein TÜV-Inspektor prüft das Auto vor Ort und liefert den Bericht in 24 Stunden.",
+    "find_master": "Auto prüfen",
+    "find_master_hint": "Inspektion ab €149 · Bericht + Fotos + Video",
+    "request_selection": "Auto-Picking anfragen",
+    "request_selection_hint": "Picker findet und prüft 3–5 Fahrzeuge",
+    "start_earning": "Ich bin Inspektor / Mechaniker",
+    "start_earning_hint": "Inspektions- und Reparaturaufträge annehmen",
+    "repair_secondary": "Werkstatt gesucht? Mechaniker finden →",
     "have_account_login": "Bereits ein Konto? Anmelden",
     "continue_as_guest": "Als Gast fortfahren →"
   },

@@ -81,7 +81,7 @@ export default function WelcomeScreen() {
       </View>
 
       <View style={styles.actions}>
-        {/* Primary: Find a mechanic */}
+        {/* PRIMARY #1: Inspect car (Auto Selection core) */}
         <TouchableOpacity
           style={styles.primaryButton}
           activeOpacity={0.9}
@@ -90,7 +90,7 @@ export default function WelcomeScreen() {
         >
           <View style={styles.primaryRow}>
             <View style={styles.primaryIcon}>
-              <Ionicons name="car-sport" size={22} color={tokens.colors.onBrand} />
+              <Ionicons name="shield-checkmark" size={22} color={tokens.colors.onBrand} />
             </View>
             <View style={styles.primaryTextBlock}>
               <Text variant="h3" weight="900" style={styles.primaryText}>
@@ -104,7 +104,28 @@ export default function WelcomeScreen() {
           </View>
         </TouchableOpacity>
 
-        {/* Secondary: Become a provider */}
+        {/* PRIMARY #2: Request selection */}
+        <TouchableOpacity
+          style={styles.secondaryButton}
+          activeOpacity={0.85}
+          onPress={goCustomer}
+          testID="welcome-request-selection"
+        >
+          <View style={styles.primaryRow}>
+            <View style={styles.secondaryIcon}>
+              <Ionicons name="clipboard-outline" size={20} color={colors.brand} />
+            </View>
+            <View style={styles.primaryTextBlock}>
+              <Text variant="h3" weight="800">{t('welcome.request_selection')}</Text>
+              <Text variant="caption" tone="muted" weight="600">
+                {t('welcome.request_selection_hint')}
+              </Text>
+            </View>
+            <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
+          </View>
+        </TouchableOpacity>
+
+        {/* TERTIARY: Provider / Inspector */}
         <TouchableOpacity
           style={styles.secondaryButton}
           activeOpacity={0.85}
@@ -125,7 +146,15 @@ export default function WelcomeScreen() {
           </View>
         </TouchableOpacity>
 
-        {/* Tertiary: Login */}
+        {/* Repair quick link — moved to secondary inline */}
+        <TouchableOpacity style={styles.repairLink} onPress={goGuest} testID="welcome-repair-link">
+          <Ionicons name="build-outline" size={14} color={colors.textSecondary} />
+          <Text variant="caption" tone="muted" weight="700">
+            {t('welcome.repair_secondary')}
+          </Text>
+        </TouchableOpacity>
+
+        {/* Login */}
         <TouchableOpacity style={styles.loginButton} onPress={goLogin} testID="welcome-login-link">
           <Text variant="body" weight="800" align="center">
             {t('welcome.have_account_login')}
@@ -220,5 +249,13 @@ function makeStyles(colors: any, isDark: boolean) {
 
     loginButton: { paddingVertical: 12, marginTop: 4 },
     skipButton: { paddingVertical: 4 },
+    repairLink: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: 6,
+      paddingVertical: 10,
+      marginTop: 2,
+    },
   });
 }

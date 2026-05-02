@@ -109,13 +109,16 @@
     }
   },
   "welcome": {
-    "kicker": "AUTO SERVICE MARKETPLACE",
-    "title": "Car repair without\nphone calls or haggling",
-    "subtitle": "Describe the problem — the system finds a mechanic nearby, shows the price and arrival time.",
-    "find_master": "Find a mechanic in 5 minutes",
-    "find_master_hint": "1 tap — mechanics already searching",
-    "start_earning": "Start earning",
-    "start_earning_hint": "Accept jobs near you",
+    "kicker": "AUTO SELECTION · PRE-PURCHASE INSPECTION",
+    "title": "Don't buy\na car blind",
+    "subtitle": "Paste a mobile.de link or request a selection — a TÜV-inspector checks the car on-site and sends a full report within 24 hours.",
+    "find_master": "Inspect a car",
+    "find_master_hint": "Inspection from €149 · report + photos + video",
+    "request_selection": "Request a selection",
+    "request_selection_hint": "Picker finds and inspects 3–5 cars for you",
+    "start_earning": "I'm an inspector / mechanic",
+    "start_earning_hint": "Accept inspection & repair jobs nearby",
+    "repair_secondary": "Need a repair? Find a mechanic →",
     "have_account_login": "Already have an account? Sign in",
     "continue_as_guest": "Continue as guest →"
   },
