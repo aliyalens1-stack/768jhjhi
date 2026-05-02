@@ -85,7 +85,7 @@ export default function WelcomeScreen() {
         <TouchableOpacity
           style={styles.primaryButton}
           activeOpacity={0.9}
-          onPress={goCustomer}
+          onPress={() => router.push('/auto-request/create')}
           testID="welcome-find-master"
         >
           <View style={styles.primaryRow}>
@@ -108,7 +108,7 @@ export default function WelcomeScreen() {
         <TouchableOpacity
           style={styles.secondaryButton}
           activeOpacity={0.85}
-          onPress={goCustomer}
+          onPress={() => router.push('/auto-request/create')}
           testID="welcome-request-selection"
         >
           <View style={styles.primaryRow}>
@@ -129,7 +129,7 @@ export default function WelcomeScreen() {
         <TouchableOpacity
           style={styles.secondaryButton}
           activeOpacity={0.85}
-          onPress={goProvider}
+          onPress={() => router.push('/inspector/jobs')}
           testID="welcome-i-am-master"
         >
           <View style={styles.primaryRow}>

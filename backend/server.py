@@ -124,6 +124,17 @@ app.include_router(requests_router)
 from app.payments.router import router as payments_router  # noqa: E402
 app.include_router(payments_router)
 
+# ═══════════════════════════════════════════════════════════════════════
+# AUTO 2.0 · Auto Requests Core (Sprint 2) — car_requests + inspection_jobs.
+# ЕСТЬ 1:N: 1 request → N jobs (по городам). НЕ смешивать с legacy repair.
+# ═══════════════════════════════════════════════════════════════════════
+from app.auto_requests.router_customer import router as ar_customer_router  # noqa: E402
+from app.auto_requests.router_inspector import router as ar_inspector_router  # noqa: E402
+from app.auto_requests.router_admin import router as ar_admin_router  # noqa: E402
+app.include_router(ar_customer_router)
+app.include_router(ar_inspector_router)
+app.include_router(ar_admin_router)
+
 # Sprint 21 C11: Orchestrator domain router (admin/governance/*, orchestrator/*,
 # feedback/*). Регистрируем ДО catch-all NestJS proxy в конце server.py.
 from app.orchestrator.router import router as orchestrator_router  # noqa: E402

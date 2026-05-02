@@ -105,10 +105,34 @@
     "subtitle": "Beschreiben Sie Ihr Wunschauto — lokale Picker suchen und prüfen Varianten für Sie.",
     "fields": {
       "brand": "Marke", "model": "Modell", "budget_max": "Budget (max, €)", "cities": "Städte / Länder",
-      "links": "Inserat-Links (optional)", "links_placeholder": "https://www.mobile.de/… (einer pro Zeile)"
+      "links": "Inserat-Links (optional)", "links_placeholder": "https://www.mobile.de/… (einer pro Zeile)",
+      "comment": "Kommentar", "comment_placeholder": "Baujahr, Ausstattung, Zustand — alles Wichtige…"
     },
+    "add": "Hinzufügen",
+    "add_link": "Link hinzufügen",
     "submit": "Anfrage erstellen",
-    "coming_soon_hint": "Kompletter Flow mit Sprint 2 (Auto Request Core)."
+    "coming_soon_hint": "Kompletter Flow mit Sprint 2 (Auto Request Core).",
+    "hint_no_payment_yet": "Beta: Paket-Bezahlung kommt in Sprint 3.",
+    "err": {
+      "required_brand_model": "Marke und Modell sind Pflicht",
+      "budget_range": "Budget: 500 – 500.000 €",
+      "at_least_one_city": "Mindestens eine Stadt hinzufügen"
+    }
+  },
+  "my_requests": {
+    "title": "Meine Anfragen",
+    "subtitle": "Inspektionen verfolgen und Berichte erhalten — alles an einem Ort.",
+    "new": "Neue Anfrage",
+    "empty_title": "Noch keine Anfragen",
+    "empty_subtitle": "Erstellen Sie Ihre erste — Wunschauto und Städte.",
+    "empty_cta": "Anfrage erstellen",
+    "jobs": "Inspektionen",
+    "jobs_total": "Gesamt",
+    "jobs_claimed": "Übernommen",
+    "jobs_done": "Fertig",
+    "inspection_jobs": "Inspektionsaufträge nach Stadt",
+    "waiting_inspector": "Wartet auf Inspektor",
+    "links": "Inserat-Links"
   },
   "comparison": {
     "soon": "Bald · Sprint 7",

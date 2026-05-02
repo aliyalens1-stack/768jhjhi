@@ -5,6 +5,7 @@ import MarketplaceHome from './pages/public/MarketplaceHome';
 import InspectPage from './pages/public/InspectPage';
 import SelectionRequestPage from './pages/public/SelectionRequestPage';
 import ComparisonPage from './pages/public/ComparisonPage';
+import { MyRequestsListPage, MyRequestDetailPage } from './pages/customer/MyRequestsPage';
 import SearchPage from './pages/public/SearchPage';
 import LiveForecastMapPage from './pages/public/LiveForecastMapPage';
 import ProviderPage from './pages/public/ProviderPage';
@@ -53,6 +54,8 @@ export default function App() {
         <Route path="/inspect" element={<InspectPage />} />
         <Route path="/selection-request" element={<SelectionRequestPage />} />
         <Route path="/comparison" element={<ComparisonPage />} />
+        <Route path="/dashboard/requests" element={<MyRequestsListPage />} />
+        <Route path="/dashboard/requests/:id" element={<MyRequestDetailPage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/zones" element={<LiveForecastMapPage />} />
         <Route path="/provider/:slug" element={<ProviderPage />} />

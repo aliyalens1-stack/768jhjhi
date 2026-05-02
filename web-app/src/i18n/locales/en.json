@@ -105,10 +105,34 @@
     "subtitle": "Describe what you're looking for — local pickers in the right cities will find and inspect options for you.",
     "fields": {
       "brand": "Brand", "model": "Model", "budget_max": "Budget (max, €)", "cities": "Cities / countries",
-      "links": "Listing URLs (optional)", "links_placeholder": "https://www.mobile.de/… (one per line)"
+      "links": "Listing URLs (optional)", "links_placeholder": "https://www.mobile.de/… (one per line)",
+      "comment": "Comment", "comment_placeholder": "Year, trim, condition — anything relevant…"
     },
+    "add": "Add",
+    "add_link": "Add link",
     "submit": "Create request",
-    "coming_soon_hint": "Full flow ships with Sprint 2 (Auto Request Core)."
+    "coming_soon_hint": "Full flow ships with Sprint 2 (Auto Request Core).",
+    "hint_no_payment_yet": "Beta: package payment ships in Sprint 3.",
+    "err": {
+      "required_brand_model": "Brand and model are required",
+      "budget_range": "Budget must be 500 — 500,000 €",
+      "at_least_one_city": "Add at least one city"
+    }
+  },
+  "my_requests": {
+    "title": "My selection requests",
+    "subtitle": "Track inspections and receive reports — all in one place.",
+    "new": "New request",
+    "empty_title": "No requests yet",
+    "empty_subtitle": "Create your first — describe the car you're looking for and the cities.",
+    "empty_cta": "Create request",
+    "jobs": "inspections",
+    "jobs_total": "Total",
+    "jobs_claimed": "Claimed",
+    "jobs_done": "Done",
+    "inspection_jobs": "Inspection jobs by city",
+    "waiting_inspector": "Waiting for inspector",
+    "links": "Listing URLs"
   },
   "comparison": {
     "soon": "Coming · Sprint 7",

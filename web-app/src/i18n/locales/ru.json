@@ -144,10 +144,35 @@
       "budget_max": "Бюджет (до, €)",
       "cities": "Города / страны",
       "links": "Ссылки на объявления (опционально)",
-      "links_placeholder": "https://www.mobile.de/… (по одному на строку)"
+      "links_placeholder": "https://www.mobile.de/… (по одному на строку)",
+      "comment": "Комментарий",
+      "comment_placeholder": "Любые детали — год выпуска, комплектация, состояние…"
     },
+    "add": "Добавить",
+    "add_link": "Добавить ссылку",
     "submit": "Создать заявку",
-    "coming_soon_hint": "Полный flow будет доступен в Sprint 2 (Auto Request Core)."
+    "coming_soon_hint": "Полный flow будет доступен в Sprint 2 (Auto Request Core).",
+    "hint_no_payment_yet": "Бета: оплата пакетом подключится в Sprint 3.",
+    "err": {
+      "required_brand_model": "Укажите марку и модель",
+      "budget_range": "Бюджет от 500 до 500 000 €",
+      "at_least_one_city": "Добавьте хотя бы один город"
+    }
+  },
+  "my_requests": {
+    "title": "Мои заявки на подбор",
+    "subtitle": "Следите за осмотрами и получайте отчёты в одном месте.",
+    "new": "Новая заявка",
+    "empty_title": "Пока нет заявок",
+    "empty_subtitle": "Создайте первую — опишите, какое авто ищете и в каких городах.",
+    "empty_cta": "Создать заявку",
+    "jobs": "осмотров",
+    "jobs_total": "Всего",
+    "jobs_claimed": "Взято",
+    "jobs_done": "Готово",
+    "inspection_jobs": "Задания на осмотр по городам",
+    "waiting_inspector": "Ожидает инспектора",
+    "links": "Ссылки на объявления"
   },
   "comparison": {
     "soon": "Скоро · Sprint 7",
