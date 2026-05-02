@@ -5,7 +5,7 @@ import {
   MessageSquare, Star, FileText, Settings, LogOut, MapPin, Inbox,
   Radio, Package, UserCircle, Globe, Cpu, History, Bell, BarChart3, Search, Zap, AlertTriangle, Wifi, WifiOff, Flag, Lightbulb, Shield,
   Activity, DollarSign, Sliders, TrendingUp, UserCog, Sparkles, GitBranch, BookOpen,
-  Bot, Link2, RotateCcw, EyeOff, Key, ArrowUpDown, FlaskConical, Gauge, SlidersHorizontal, Brain, Headphones, ClipboardCheck
+  Bot, Link2, RotateCcw, EyeOff, Key, ArrowUpDown, FlaskConical, Gauge, SlidersHorizontal, Brain, Headphones, ClipboardCheck, CreditCard
 } from 'lucide-react';
 import { useAuthStore } from '../stores/authStore';
 import GlobalSearchModal from './GlobalSearchModal';
@@ -17,6 +17,7 @@ const navGroups = [
     label: 'AUTO 2.0 · CORE',
     items: [
       { to: '/auto-requests', icon: ClipboardCheck, label: '🚗 Auto Requests' },
+      { to: '/auto-payments', icon: CreditCard, label: '💳 Payments & Credits' },
     ]
   },
   {

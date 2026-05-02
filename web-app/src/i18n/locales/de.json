@@ -147,6 +147,26 @@
     "title": "Reparatur, Diagnose, Werkstätten",
     "subtitle": "Falls Sie das Auto bereits besitzen und etwas kaputt ist — finden Sie eine vertrauenswürdige Werkstatt in der Nähe."
   },
+  "packages": {
+    "eyebrow": "INSPEKTIONS-PAKETE",
+    "title": "Zahlen Sie die Plattform. Verwenden Sie Guthaben jederzeit.",
+    "subtitle": "Das gesamte Geld läuft über die Plattform — Inspektoren nehmen nie Bargeld. 1 Guthaben = 1 geprüftes Auto.",
+    "your_credits": "Ihr Guthaben",
+    "reserved": "reserviert",
+    "ready_to_use": "Einsatzbereit",
+    "inspection": "Inspektion",
+    "per_unit": "pro Inspektion",
+    "pay_card": "Mit Karte bezahlen",
+    "canceled": "Zahlung abgebrochen. Sie können es unten erneut versuchen.",
+    "safety_note": "Sichere Kasse über Stripe · PayPal bald im Produktionsmodus.",
+    "perks": {
+      "tuv": "TÜV-Inspektor vor Ort",
+      "checklist": "60-Punkte-Checkliste",
+      "photos_videos": "Fotos + Videos",
+      "compare": "Autos in einem Bericht vergleichen",
+      "priority": "Priorität in der Inspektor-Warteschlange"
+    }
+  },
   "home": {
     "banner": {
       "kicker": "NEU · Pre-Kauf-Prüfung",

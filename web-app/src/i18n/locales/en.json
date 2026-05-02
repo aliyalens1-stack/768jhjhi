@@ -147,6 +147,26 @@
     "title": "Repair, diagnostics, garages",
     "subtitle": "If you already own the car and something broke — find a trusted mechanic nearby."
   },
+  "packages": {
+    "eyebrow": "INSPECTION PACKAGES",
+    "title": "Pay the platform. Use credits anytime.",
+    "subtitle": "All money flows through the platform — inspectors never take cash. Use one credit per inspected car.",
+    "your_credits": "Your credits",
+    "reserved": "reserved",
+    "ready_to_use": "Ready to spend",
+    "inspection": "inspection",
+    "per_unit": "each",
+    "pay_card": "Pay with card",
+    "canceled": "Payment canceled. You can retry below.",
+    "safety_note": "Secure checkout via Stripe · PayPal coming soon in production mode.",
+    "perks": {
+      "tuv": "TÜV-inspector on-site",
+      "checklist": "60-point checklist report",
+      "photos_videos": "Photos + videos",
+      "compare": "Compare cars in one report",
+      "priority": "Priority in inspector queue"
+    }
+  },
   "home": {
     "banner": {
       "kicker": "NEW · Pre-purchase inspection",

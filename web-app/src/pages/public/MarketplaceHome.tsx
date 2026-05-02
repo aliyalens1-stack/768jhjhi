@@ -178,47 +178,32 @@ export default function MarketplaceHome() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════
-          🟡 PACKAGES — tease для оплаты пакетом (Sprint 3 сделает payment)
+          🟡 PACKAGES — CTA to real /packages page (Sprint 3 live)
           ══════════════════════════════════════════════════════════════ */}
       <section className="mx-auto max-w-7xl px-4 md:px-6 pt-14 pb-4" data-testid="selection-packages">
-        <div className="mb-6">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--primary-h)]">{t('selection.packages.eyebrow')}</p>
-          <h2 className="text-2xl md:text-3xl font-extrabold mt-1">{t('selection.packages.title')}</h2>
-          <p className="mt-1 text-[var(--text-2)]">{t('selection.packages.subtitle')}</p>
+        <div className="mb-6 flex items-end justify-between flex-wrap gap-3">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[var(--primary-h)]">{t('selection.packages.eyebrow')}</p>
+            <h2 className="text-2xl md:text-3xl font-extrabold mt-1">{t('selection.packages.title')}</h2>
+            <p className="mt-1 text-[var(--text-2)]">{t('selection.packages.subtitle')}</p>
+          </div>
+          <Link to="/packages" className="btn-primary btn-lg" data-testid="packages-cta">
+            {t('packages.pay_card')} →
+          </Link>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
-          <PackageCard
-            label={t('selection.packages.one.label')}
-            price="€120"
-            perks={[
-              t('selection.packages.one.perk1'),
-              t('selection.packages.one.perk2'),
-              t('selection.packages.one.perk3'),
-            ]}
-            testId="pkg-one"
-          />
-          <PackageCard
-            label={t('selection.packages.three.label')}
-            price="€300"
-            highlight
-            badge={t('selection.packages.three.badge')}
-            perks={[
-              t('selection.packages.three.perk1'),
-              t('selection.packages.three.perk2'),
-              t('selection.packages.three.perk3'),
-            ]}
-            testId="pkg-three"
-          />
-          <PackageCard
-            label={t('selection.packages.five.label')}
-            price="€450"
-            perks={[
-              t('selection.packages.five.perk1'),
-              t('selection.packages.five.perk2'),
-              t('selection.packages.five.perk3'),
-            ]}
-            testId="pkg-five"
-          />
+          <Link to="/packages" className="block" data-testid="home-pkg-one">
+            <PackageCard label={t('selection.packages.one.label')} price="€120"
+              perks={[t('selection.packages.one.perk1'), t('selection.packages.one.perk2'), t('selection.packages.one.perk3')]} testId="pkg-one" />
+          </Link>
+          <Link to="/packages" className="block" data-testid="home-pkg-three">
+            <PackageCard label={t('selection.packages.three.label')} price="€300" highlight badge={t('selection.packages.three.badge')}
+              perks={[t('selection.packages.three.perk1'), t('selection.packages.three.perk2'), t('selection.packages.three.perk3')]} testId="pkg-three" />
+          </Link>
+          <Link to="/packages" className="block" data-testid="home-pkg-five">
+            <PackageCard label={t('selection.packages.five.label')} price="€450"
+              perks={[t('selection.packages.five.perk1'), t('selection.packages.five.perk2'), t('selection.packages.five.perk3')]} testId="pkg-five" />
+          </Link>
         </div>
       </section>
 

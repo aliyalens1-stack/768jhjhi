@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import AutoRequestsPage from './pages/AutoRequestsPage';
+import PaymentsAndCreditsPage from './pages/PaymentsAndCreditsPage';
 import UsersPage from './pages/UsersPage';
 import OrganizationsPage from './pages/OrganizationsPage';
 import MapPage from './pages/MapPage';
@@ -105,6 +106,7 @@ export default function App() {
       >
         <Route index element={<DashboardPage />} />
         <Route path="auto-requests" element={<AutoRequestsPage />} />
+        <Route path="auto-payments" element={<PaymentsAndCreditsPage />} />
         <Route path="live-monitor" element={<LiveMonitorPage />} />
         <Route path="users" element={<UsersPage />} />
         <Route path="customers" element={<CustomersPage />} />

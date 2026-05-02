@@ -7,6 +7,9 @@ import SelectionRequestPage from './pages/public/SelectionRequestPage';
 import ComparisonPage from './pages/public/ComparisonPage';
 import { MyRequestsListPage, MyRequestDetailPage } from './pages/customer/MyRequestsPage';
 import SearchPage from './pages/public/SearchPage';
+import PackagesPage from './pages/customer/PackagesPage';
+import PaymentSuccessPage from './pages/customer/PaymentSuccessPage';
+import PayPalMockPage from './pages/customer/PayPalMockPage';
 import LiveForecastMapPage from './pages/public/LiveForecastMapPage';
 import ProviderPage from './pages/public/ProviderPage';
 import ProviderBillingPage from './pages/provider/BillingPage';
@@ -57,6 +60,9 @@ export default function App() {
         <Route path="/dashboard/requests" element={<MyRequestsListPage />} />
         <Route path="/dashboard/requests/:id" element={<MyRequestDetailPage />} />
         <Route path="/search" element={<SearchPage />} />
+        <Route path="/packages" element={<PackagesPage />} />
+        <Route path="/packages/success" element={<PaymentSuccessPage />} />
+        <Route path="/packages/paypal-mock" element={<PayPalMockPage />} />
         <Route path="/zones" element={<LiveForecastMapPage />} />
         <Route path="/provider/:slug" element={<ProviderPage />} />
         <Route path="/booking/:id" element={<BookingDetailPage />} />

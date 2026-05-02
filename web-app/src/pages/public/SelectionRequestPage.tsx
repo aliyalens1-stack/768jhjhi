@@ -70,6 +70,12 @@ export default function SelectionRequestPage() {
         }),
       });
       if (!res.ok) {
+        if (res.status === 402) {
+          const data = await res.json().catch(() => ({}));
+          setError(`${t('selection_request.err.need_credits', { defaultValue: 'You need more inspection credits' })} — ${data.required || cities.length} needed, ${data.available || 0} available. Redirecting to /packages…`);
+          setTimeout(() => navigate('/packages'), 1500);
+          return;
+        }
         const txt = await res.text();
         throw new Error(txt || `HTTP ${res.status}`);
       }

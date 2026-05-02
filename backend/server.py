@@ -135,6 +135,15 @@ app.include_router(ar_customer_router)
 app.include_router(ar_inspector_router)
 app.include_router(ar_admin_router)
 
+# ═══════════════════════════════════════════════════════════════════════
+# AUTO 2.0 · Packages + Payments (Sprint 3) — credits-based economy.
+# Packages catalog: 1 / 3 / 5 inspections · Stripe real + PayPal mock.
+# ═══════════════════════════════════════════════════════════════════════
+from app.packages.router_packages import router as pkg_router  # noqa: E402
+from app.packages.router_admin import router as pkg_admin_router  # noqa: E402
+app.include_router(pkg_router)
+app.include_router(pkg_admin_router)
+
 # Sprint 21 C11: Orchestrator domain router (admin/governance/*, orchestrator/*,
 # feedback/*). Регистрируем ДО catch-all NestJS proxy в конце server.py.
 from app.orchestrator.router import router as orchestrator_router  # noqa: E402
