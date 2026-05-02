@@ -1,0 +1,858 @@
+{
+  "common": {
+    "back": "Zurück",
+    "next": "Weiter",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "loading": "Wird geladen…",
+    "retry": "Erneut versuchen",
+    "ok": "OK",
+    "close": "Schließen",
+    "yes": "Ja",
+    "no": "Nein",
+    "error": "Fehler",
+    "success": "Fertig",
+    "search": "Suche",
+    "open": "Öffnen",
+    "enable": "Aktivieren",
+    "disable": "Deaktivieren",
+    "pause": "Pausieren",
+    "resume": "Fortsetzen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "today": "Heute",
+    "minutes_short": "Min."
+  },
+  "language": {
+    "title": "Sprache",
+    "ru": "Русский",
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "tabs": {
+    "home": "Start",
+    "search": "Suche",
+    "map": "Karte",
+    "bookings": "Aufträge",
+    "garage": "Garage",
+    "profile": "Profil",
+    "provider_hub": "Verdienen"
+  },
+  "app": {
+    "loading": "Wird geladen…"
+  },
+  "auth_required": {
+    "title": "Konto erforderlich",
+    "default_reason": "Um die Anfrage zu speichern und die Werkstatt zu verfolgen, melden Sie sich an oder erstellen Sie ein Konto.",
+    "login": "Anmelden",
+    "register": "Konto erstellen",
+    "later": "Später"
+  },
+  "quick_request_status": {
+    "kicker": "SYSTEM ARBEITET",
+    "redirecting_title": "Fertig!",
+    "redirecting_subtitle": "Buchungsbildschirm wird geöffnet…",
+    "subtitle": "Dauert meist weniger als eine Minute. Bitte den Bildschirm nicht schließen.",
+    "timer_left": "Verbleibend:",
+    "timer_seconds": "{{n}}s",
+    "cancel": "Abbrechen",
+    "rotating": [
+      "Situation wird analysiert…",
+      "Mechaniker in der Nähe gesucht…",
+      "Verfügbarkeit wird geprüft…",
+      "Beste Optionen werden vorbereitet…",
+      "Preise und Zeiten werden abgeglichen…"
+    ]
+  },
+  "quick_request_offers": {
+    "kicker": "MECHANIKER WÄHLEN",
+    "title": "Beste Optionen in der Nähe",
+    "subtitle": "Tippen Sie auf «Auswählen» — das System erstellt sofort eine Buchung.",
+    "reviews_short": "{{count}} Bewertungen",
+    "select": "Diesen Mechaniker auswählen",
+    "taken_title": "Bereits vergeben",
+    "taken_msg": "Dieser Mechaniker wurde gerade von einem anderen Kunden ausgewählt. Bitte wählen Sie einen anderen.",
+    "error_title": "Fehler",
+    "error_msg": "Auswahl konnte nicht bestätigt werden. Bitte erneut versuchen."
+  },
+  "quick_request_failed": {
+    "title": "Kein freier Mechaniker gefunden",
+    "subtitle": "In Ihrer Gegend ist gerade hohe Auslastung. Versuchen Sie es in einer Minute erneut oder wählen Sie eine Werkstatt manuell.",
+    "tip_wait": "Durchschnittliche Wartezeit: 1–2 Minuten",
+    "tip_radius": "Suchradius erweitern",
+    "tip_price": "Preise unverändert — Surge entfernt",
+    "retry": "Erneut versuchen",
+    "browse": "Werkstatt manuell auswählen",
+    "home": "Zur Startseite"
+  },
+  "booking_flow": {
+    "confirm": {
+      "title": "Bestätigung",
+      "date_label": "Datum",
+      "time_label": "Uhrzeit",
+      "service_price": "Servicepreis",
+      "info_notice": "Slot ist 15 Minuten reserviert. Nach der Bestätigung gelangen Sie zur Zahlung.",
+      "total": "Gesamtbetrag",
+      "confirm_pay": "Bestätigen und bezahlen",
+      "auth_reason": "Melden Sie sich an, um die Buchung zu bestätigen. Nach dem Login bringen wir Sie zurück und behalten alle Daten.",
+      "error_title": "Fehler",
+      "error_default": "Buchung konnte nicht erstellt werden"
+    },
+    "success": {
+      "title": "Zahlung erfolgreich!",
+      "subtitle": "Ihre Buchung ist bestätigt.\nDie Werkstatt wurde über Ihren Termin informiert.",
+      "info_reminder": "Sie erhalten eine Erinnerung am Tag vor dem Termin",
+      "info_address": "Werkstatt-Adresse finden Sie in den Buchungs­details",
+      "view_booking": "Buchung ansehen",
+      "go_home": "Zur Startseite"
+    }
+  },
+  "welcome": {
+    "kicker": "WERKSTATT-MARKTPLATZ",
+    "title": "Auto­reparatur ohne\nAnrufe und Feilschen",
+    "subtitle": "Beschreiben Sie das Problem — das System findet eine Werkstatt in der Nähe und zeigt Preis und Ankunftszeit.",
+    "find_master": "Mechaniker in 5 Minuten finden",
+    "find_master_hint": "1 Tipp — die Suche läuft schon",
+    "start_earning": "Jetzt verdienen",
+    "start_earning_hint": "Aufträge in Ihrer Nähe annehmen",
+    "have_account_login": "Bereits ein Konto? Anmelden",
+    "continue_as_guest": "Als Gast fortfahren →"
+  },
+  "home": {
+    "hero_title": "Auto­reparatur ohne Anrufe und Feilschen",
+    "hero_subtitle": "Wir finden die nächste Werkstatt und fixieren den Preis sofort",
+    "what_do_you_need": "Was brauchen Sie für Ihr Auto?",
+    "popular_services": "Beliebte Leistungen",
+    "live_forecast": "Live-Nachfrage­prognose",
+    "open_map": "Karte öffnen",
+    "start_earning": "Jetzt verdienen",
+    "i_am_provider": "Ich bin Anbieter",
+    "i_am_customer": "Ich bin Kunde",
+    "continue_as_guest": "Als Gast fortfahren",
+    "clusters": {
+      "repair_title": "Auto­reparatur",
+      "repair_sub": "Mobiler Mechaniker",
+      "inspection_title": "Kauf­prüfung",
+      "inspection_sub": "Experten-Check",
+      "selection_title": "Fahrzeug­suche",
+      "selection_sub": "Finden & prüfen",
+      "delivery_title": "Fahrzeug­import",
+      "delivery_sub": "Lieferung aus EU"
+    },
+    "greeting": "Guten Tag",
+    "greeting_morning": "Guten Morgen",
+    "greeting_day": "Guten Tag",
+    "greeting_evening": "Guten Abend",
+    "guest": "Gast",
+    "problem_title": "Was ist das Problem?",
+    "solve_fast_title": "Schnell lösen",
+    "solve_fast_sub": "1 Tipp – Mechaniker suchen schon",
+    "choose_service": "Service auswählen",
+    "surge_title": "Hohe Nachfrage in Ihrer Nähe",
+    "surge_sub": "Mechaniker antworten schneller als gewöhnlich",
+    "providers_ready": "{{n}} Werkstätten bereit zu helfen",
+    "nearest_in": "Nächste in {{km}} km · ~{{min}} Min.",
+    "find_shop": "Werkstatt finden",
+    "my_garage": "Meine Garage",
+    "bookings_quick": "Termine",
+    "requests_quick": "Anfragen",
+    "svc": {
+      "engine_wont_start": "Springt nicht an",
+      "oil_change": "Ölwechsel",
+      "brakes": "Bremsen",
+      "diagnostics": "Diagnose",
+      "electrical": "Elektrik",
+      "suspension": "Fahrwerk",
+      "pre_purchase_inspection": "Vorkaufprüfung",
+      "computer_diagnostics": "Computer-Diagnose",
+      "vin_check": "VIN-Prüfung",
+      "accident_check": "Unfallcheck",
+      "car_selection": "Autoauswahl",
+      "budget_match": "Budget-Match",
+      "negotiation_help": "Verhandlungshilfe",
+      "mobile_de_link": "Mobile.de-Link",
+      "car_delivery": "Überführung",
+      "evacuation": "Abschleppen",
+      "eu_import": "EU-Import"
+    }
+  },
+  "qr": {
+    "kicker": "SCHNELL­ANFRAGE",
+    "title_repair": "Was ist mit dem Auto los?",
+    "title_inspection": "Was vor dem Kauf prüfen?",
+    "title_selection": "Welches Auto suchen wir?",
+    "title_delivery": "Woher importieren wir?",
+    "helper_repair": "Mobiler Mechaniker, sofortiger Einsatz",
+    "helper_inspection": "Experte prüft das Auto vor dem Deal",
+    "helper_selection": "Unser Experte findet und prüft das Auto",
+    "helper_delivery": "Fahrzeug­import aus Europa",
+    "default_helper": "Wählen Sie 1 Option — wir suchen sofort einen Anbieter in der Nähe.",
+    "submit_choose": "Option wählen",
+    "submit_find": "Mechaniker finden",
+    "location_hint": "Wir benötigen Ihren Standort, um Werkstätten in der Nähe zu finden",
+    "errors": {
+      "need_link": "Fügen Sie einen Auto-Link ein (mobile.de oder autoscout24)",
+      "need_link_title": "Link erforderlich",
+      "need_budget": "Geben Sie das Budget in EUR an",
+      "need_budget_title": "Budget erforderlich",
+      "need_route": "Geben Sie die Route von → nach für den Import an",
+      "need_route_title": "Route erforderlich",
+      "submit_failed": "Anfrage konnte nicht gesendet werden. Bitte erneut versuchen."
+    },
+    "problems": {
+      "engine_start_failure": "Springt nicht an",
+      "battery": "Batterie leer",
+      "tires": "Reifenpanne",
+      "tow": "Abschleppwagen nötig",
+      "brakes": "Bremsen",
+      "electrical": "Elektrik",
+      "noise": "Seltsame Geräusche",
+      "general": "Etwas anderes",
+      "pre_purchase_check": "Kauf­prüfung",
+      "body_check": "Karosserie­prüfung",
+      "engine_check": "Motor­prüfung",
+      "diagnostic_scan": "OBD-Diagnose",
+      "car_selection": "Fahrzeug­suche",
+      "remote_buying": "Hilfe bei Fern­kauf",
+      "delivery": "Fahrzeug­lieferung",
+      "import": "Import aus EU"
+    }
+  },
+  "provider_hub": {
+    "title": "Anbieter-Hub",
+    "online": "Online",
+    "offline": "Offline",
+    "earnings_today": "Verdienst heute",
+    "leads_today": "Anfragen heute",
+    "current_job": "Aktueller Auftrag",
+    "go_online": "Online gehen",
+    "go_offline": "Offline gehen"
+  },
+  "smart_nudge": {
+    "lead_high_demand_low_competition": "🔥 Leichtes Geld jetzt",
+    "lead_high_demand": "🔥 Hohe Nachfrage",
+    "lead_low_competition": "😏 Kaum Konkurrenz",
+    "lead_balanced": "💡 Wo jetzt verdienen",
+    "potential": "Potenzial",
+    "today_suffix": "heute",
+    "demand_x": "× Nachfrage",
+    "competition_low": "geringe Konkurrenz",
+    "competition_medium": "mittlere Konkurrenz",
+    "competition_high": "hohe Konkurrenz",
+    "you_are_here": "Sie sind bereits hier",
+    "go_earn": "Hin und verdienen"
+  },
+  "auto_money": {
+    "title": "🤖 Auto-Verdienst",
+    "tagline": "Wir halten Sie in den Top-3, wo das Geld fließt",
+    "configure_tagline": "Einrichten und einschalten — den Rest machen wir",
+    "kept_in_top": "{{strategy}} · halten in Top-{{rank}}",
+    "max_bid": "Max. Gebot",
+    "max_bid_per_lead": "Max. Gebot / Lead",
+    "spent": "Ausgegeben",
+    "leads": "Leads",
+    "active_zones": "Aktive Zonen",
+    "budget_today": "{{pct}}% des Tagesbudgets",
+    "pause": "Auto-Verdienst pausieren",
+    "enable_btn": "Auto-Verdienst aktivieren",
+    "target_position": "Zielposition",
+    "top_n": "Top-{{n}}",
+    "budget_per_day": "Budget / Tag",
+    "strategy_title": "Strategie",
+    "strategy_conservative": "Vorsichtig",
+    "strategy_balanced": "Ausgewogen",
+    "strategy_aggressive": "Aggressiv",
+    "strategy_hint_conservative": "Nur die profitabelste Zelle, minimale Über­bietungen",
+    "strategy_hint_balanced": "Top-2 Zellen, Gebot +1 über Marktführer",
+    "strategy_hint_aggressive": "Top-3 Zellen, Gebot +2 über Marktführer, Positionen hart halten",
+    "errors": {
+      "bad_bid_title": "Max. Gebot prüfen",
+      "bad_bid_msg": "Max. Gebot muss größer als 0 sein",
+      "bad_budget_title": "Budget prüfen",
+      "bad_budget_msg": "Tagesbudget muss mindestens 10 betragen",
+      "bad_combo_title": "Ungültige Konfiguration",
+      "bad_combo_msg": "Max. Gebot darf das Tagesbudget nicht übersteigen",
+      "enable_failed": "Auto-Verdienst konnte nicht aktiviert werden"
+    }
+  },
+  "outbid": {
+    "soft_title": "Über­boten in {{zone}}",
+    "soft_sub": "Sie sind jetzt #{{rank}} · Marktführer: {{sym}}{{top}} · Ihr Gebot: {{sym}}{{mine}}.",
+    "pressure_title": "⚠️ Sie verlieren Geld",
+    "pressure_sub": "{{zone}} · Position #{{rank}} · {{loss}}.",
+    "pressure_loss_amount": "~{{sym}}{{amount}}/Tag",
+    "critical_title": "🚨 Sie sind aus den Top-3",
+    "critical_sub": "{{zone}} · Einkommen gestoppt. Über­bieten bis {{sym}}{{suggested}}.",
+    "cta_outbid_to": "Über­bieten bis {{sym}}{{suggested}}"
+  },
+  "reactivation": {
+    "title": "🔥 Sie verlieren Geld",
+    "missed_x_requests": "Während Sie offline sind: {{n}} Anfragen verpasst",
+    "while_offline": "Während Sie offline sind",
+    "potential_loss": "~{{sym}}{{amount}}",
+    "back_to_online_cta": "Online gehen",
+    "tail": "Kommen Sie online zurück und holen Sie sich den Strom."
+  },
+  "auth": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirm_password": "Passwort bestätigen",
+    "name": "Name",
+    "phone": "Telefon",
+    "have_account": "Bereits ein Konto?",
+    "no_account": "Noch kein Konto?",
+    "login_btn": "Anmelden",
+    "register_btn": "Konto erstellen",
+    "forgot_password": "Passwort vergessen?",
+    "wrong_credentials": "Falsche E-Mail oder Passwort",
+    "subtitle": "Geben Sie Ihre Zugangsdaten ein",
+    "email_placeholder": "example@mail.com",
+    "password_placeholder": "Ihr Passwort",
+    "demo_zone": "DEMO-ZUGANG",
+    "demo_customer": "Kunde",
+    "demo_customer_desc": "Ivan Schneider · Berlin",
+    "demo_provider": "Werkstatt",
+    "demo_provider_desc": "Klaus Müller · Berlin",
+    "demo_admin": "Admin",
+    "demo_admin_desc": "Verwaltung",
+    "demo_failed": "Demo-Login fehlgeschlagen",
+    "credentials_required": "E-Mail und Passwort erforderlich",
+    "wrong_email_or_password": "E-Mail oder Passwort falsch",
+    "fill_required": "Pflichtfelder ausfüllen",
+    "password_too_short": "Passwort muss mindestens 6 Zeichen haben"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Thema",
+    "notifications": "Benachrichtigungen",
+    "privacy": "Datenschutz",
+    "about": "Über die App",
+    "terms": "Nutzungsbedingungen",
+    "appearance": "Erscheinungsbild",
+    "theme_label": "Thema",
+    "theme_desc": "Hell entspricht dem Web-Design",
+    "theme_light": "Hell",
+    "theme_dark": "Dunkel",
+    "theme_light_hint": "Wie auf der Website",
+    "theme_dark_hint": "Monobank-Stil",
+    "push_label": "Push-Benachrichtigungen",
+    "push_desc": "Auftragsbenachrichtigungen erhalten",
+    "email_label": "E-Mail-Benachrichtigungen",
+    "email_desc": "Statusbriefe erhalten",
+    "language_label": "App-Sprache",
+    "language_section": "Sprache",
+    "support_section": "Support",
+    "faq": "FAQ",
+    "faq_desc": "Häufig gestellte Fragen",
+    "contact_support": "Support kontaktieren",
+    "contact_support_desc": "Antwort innerhalb 24h",
+    "legal_section": "Rechtliches",
+    "account_section": "Konto",
+    "logout_action": "Abmelden",
+    "logout_confirm_title": "Abmelden",
+    "logout_confirm_body": "Möchten Sie sich wirklich abmelden?",
+    "logout_action_btn": "Abmelden",
+    "delete_account": "Konto löschen",
+    "delete_account_title": "Konto löschen?",
+    "delete_account_body": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Daten werden gelöscht.",
+    "delete_account_in_dev_title": "In Entwicklung",
+    "delete_account_in_dev_body": "Bitte Support kontaktieren, um Konto zu löschen.",
+    "version": "AutoService v1.0.0",
+    "copyright": "© 2026 AutoService Platform"
+  },
+  "errors": {
+    "network": "Keine Verbindung zum Server",
+    "unknown": "Etwas ist schief­gelaufen. Bitte erneut versuchen.",
+    "permission_denied": "Zugriff verweigert",
+    "not_found": "Nicht gefunden"
+  },
+  "provider": {
+    "greeting": "Hallo",
+    "default_name": "Meister",
+    "workshop_account": "Werkstatt-Konto",
+    "online": "Online",
+    "offline": "Offline",
+    "offline_title": "Sie sind offline",
+    "offline_desc": "Keine Anfragen kommen rein. Aktivieren Sie „Online\", um zu verdienen.",
+    "activate": "Aktivieren",
+    "new_requests": "Neue Anfragen",
+    "request_default": "Anfrage",
+    "new_badge": "Neu"
+  },
+  "profile": {
+    "title": "Profil",
+    "settings": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Thema",
+    "darkTheme": "Dunkel",
+    "lightTheme": "Hell",
+    "notifications": "Benachrichtigungen",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "quick_actions": "Schnellaktionen",
+    "support_section": "Support",
+    "my_garage": "Meine Garage",
+    "favorites": "Favoriten",
+    "disputes": "Streitfälle",
+    "referral_title": "Freund einladen → erhalte {{amount}}",
+    "referral_sub": "Freund bekommt {{amount}} bei der ersten Bestellung. 🔥 7 Tage übrig",
+    "logout_confirm_title": "Abmelden?",
+    "logout_confirm_body": "Möchten Sie sich wirklich abmelden?"
+  },
+  "intel": {
+    "active_booking_label": "AKTIVE BUCHUNG",
+    "booking_default": "Buchung",
+    "status_prefix": "Status",
+    "zone_status_template": "In {{zone}} ist gerade {{status}}",
+    "zone_status_sub": "Schnelle Antwort · ETA {{eta}} Min. · jetzt buchen",
+    "repeat_section": "Erneut buchen",
+    "service_default": "Service",
+    "repeat_btn": "Erneut",
+    "favorites_section": "Favoriten-Werkstätten",
+    "car_recs_section": "Empfehlungen für Ihr Auto",
+    "find_btn": "Finden",
+    "for_you_section": "Für Sie",
+    "rec_default": "Empfehlung",
+    "missed_template": "Sie haben {{n}} Anfrage(n) verpasst — Werkstätten sind jetzt frei"
+  },
+  "booking_screen": {
+    "not_found_title": "Buchung nicht gefunden",
+    "not_found_sub": "Diese Buchung existiert nicht oder wurde gelöscht.",
+    "not_found_back": "Zurück"
+  },
+  "create_quote": {
+    "new_request": "Neue Anfrage",
+    "step_of": "Schritt {{step}} von {{total}}",
+    "continue": "Weiter",
+    "submit": "Anfrage senden",
+    "step1_title": "Fahrzeug auswählen",
+    "step1_subtitle": "Für welches Auto benötigen Sie den Service?",
+    "add_vehicle": "Fahrzeug hinzufügen",
+    "step2_title": "Was soll gemacht werden?",
+    "step2_subtitle": "Leistung auswählen",
+    "step3_title": "Details der Anfrage",
+    "step3_subtitle": "Problem beschreiben (optional)",
+    "description_placeholder": "z. B.: Klopfen im Motor beim Beschleunigen…",
+    "date_label": "Wann passt es?",
+    "step4_title": "Anfrage prüfen",
+    "step4_subtitle": "Bitte prüfen Sie alle Angaben",
+    "vehicle": "Fahrzeug",
+    "service": "Leistung",
+    "deadline": "Termin",
+    "description": "Beschreibung",
+    "edit": "Ändern",
+    "info_note": "Nach dem Absenden erhalten Sie Angebote von nahegelegenen Werkstätten",
+    "dates": {
+      "asap": "Sobald wie möglich",
+      "this_week": "In den nächsten Tagen",
+      "flex_week": "Diese Woche"
+    },
+    "services": {
+      "diagnostics": "Diagnose",
+      "oil_change": "Ölwechsel",
+      "brakes": "Bremsen",
+      "engine": "Motor",
+      "suspension": "Fahrwerk",
+      "electrical": "Elektrik",
+      "body": "Karosserie",
+      "tires": "Reifen"
+    }
+  },
+  "organization": {
+    "not_found": "Werkstatt nicht gefunden",
+    "reviews_count": "{{n}} Bewertungen",
+    "tabs": {
+      "info": "Info",
+      "services": "Leistungen",
+      "reviews": "Bewertungen ({{n}})"
+    },
+    "badges": {
+      "verified": "Verifiziert",
+      "popular": "Beliebt",
+      "fast": "Schnell (~{{n}} Min.)",
+      "response_time": "~{{n}} Min.",
+      "open": "Geöffnet",
+      "closed": "Geschlossen"
+    },
+    "why_choose": {
+      "title": "Warum wählen:",
+      "happy_customers": "{{pct}}% zufriedene Kunden",
+      "response_within": "Antwortet in {{n}} Min.",
+      "completed_orders": "{{n}} abgeschlossene Aufträge",
+      "verified": "Von der Plattform verifiziert"
+    },
+    "stats": {
+      "orders": "Aufträge",
+      "reviews": "Bewertungen",
+      "rating": "Bewertung"
+    },
+    "actions": {
+      "call": "Anrufen",
+      "directions": "Route",
+      "chat": "Chat"
+    },
+    "info": {
+      "about": "Über uns",
+      "address": "Adresse",
+      "hours": "Öffnungszeiten",
+      "days": {
+        "mon_fri": "Mo–Fr",
+        "sat": "Sa",
+        "sun": "So"
+      },
+      "closed": "Geschlossen",
+      "specialization": "Spezialisierung"
+    },
+    "book_now": "Termin buchen",
+    "user_fallback": "Nutzer",
+    "price_from": "ab {{n}}€",
+    "paywall_title": "Kontakte nur nach Zahlung",
+    "paywall_msg": "Um die Werkstatt direkt zu kontaktieren, erstellen Sie bitte zuerst eine Buchung und zahlen Sie über die Plattform.",
+    "paywall_create": "Anfrage erstellen",
+    "paywall_close": "Schließen",
+    "mock_services": {
+      "engine_diagnostics": "Motor-Diagnose",
+      "engine_diagnostics_desc": "Komplette Computer-Diagnose",
+      "oil_change": "Ölwechsel",
+      "oil_change_desc": "Öl + Filter",
+      "inspection": "TÜV-Inspektion",
+      "inspection_desc": "Komplette technische Prüfung",
+      "brake_repair": "Bremsenreparatur",
+      "brake_repair_desc": "Beläge, Scheiben, Sättel"
+    }
+  },
+  "booking_confirmation": {
+    "title": "Anfrage gesendet!",
+    "subtitle": "Angebote von Werkstätten\nkommen in 15–30 Minuten",
+    "vehicle": "Fahrzeug",
+    "service": "Leistung",
+    "deadline": "Termin",
+    "booking_id": "Anfragenummer",
+    "info_note": "Sie erhalten eine Push-Benachrichtigung, sobald eine Werkstatt antwortet",
+    "my_bookings": "Meine Anfragen",
+    "go_home": "Zur Startseite",
+    "referral_title": "💸 Erhalte 50€ für die nächste Reparatur",
+    "referral_sub": "Freund einladen → er bekommt 30€, du 20€",
+    "share_text": "Ich habe über Auto Search eine Anfrage für {{service}} für meinen {{brand}} {{model}} erstellt!"
+  },
+  "tracking": {
+    "title": "Tracking",
+    "loading_map": "Karte wird geladen…",
+    "not_found": "Buchung nicht gefunden",
+    "eta_minutes": "in {{n}} Min.",
+    "eta_short": "{{n}} Min.",
+    "service_default": "Autoservice",
+    "leave_review": "Bewertung abgeben",
+    "status": {
+      "confirmed": "Mechaniker zugewiesen",
+      "on_route": "Mechaniker unterwegs",
+      "arrived": "Mechaniker vor Ort",
+      "in_progress": "Arbeit läuft",
+      "completed": "Abgeschlossen"
+    }
+  },
+  "provider_card": {
+    "rating_none": "—",
+    "meta_distance_m": "{{n}} m",
+    "meta_distance_km": "{{n}} km",
+    "meta_eta": "{{n}} Min.",
+    "meta_separator": " · ",
+    "meta_price": "ab {{sym}}{{n}}",
+    "badge_tuv": "TÜV geprüft",
+    "trust_experience_years": "{{n}}+ Jahre Erfahrung",
+    "trust_jobs_done": "{{n}}+ Fahrzeuge geprüft",
+    "trust_verified": "Verifiziert",
+    "trust_fast_response": "Antwortet in {{n}} Min.",
+    "trust_top_rated": "Top bewertet in der Gegend",
+    "cta_select": "Mechaniker wählen"
+  },
+  "empty": {
+    "providers_title": "Keine Mechaniker in der Nähe",
+    "providers_subtitle": "Erweitern Sie den Radius oder versuchen Sie es gleich erneut",
+    "providers_action": "Radius erweitern",
+    "search_title": "Nichts gefunden",
+    "search_subtitle": "Probieren Sie andere Stichworte oder Filter",
+    "search_action": "Filter zurücksetzen",
+    "services_title": "Noch keine Leistungen",
+    "services_subtitle": "Diese Werkstatt hat noch keine Leistungen veröffentlicht",
+    "bookings_title": "Keine Buchungen",
+    "bookings_subtitle": "Hier erscheinen Ihre Serviceanfragen",
+    "bookings_action": "Werkstatt finden",
+    "generic_title": "Hier ist noch nichts",
+    "generic_subtitle": "Bitte versuchen Sie es gleich erneut",
+    "back": "Zurück"
+  },
+  "services_map": {
+    "title": "Werkstatt-Karte",
+    "geo_off": "Standort deaktiviert",
+    "enable": "Aktivieren",
+    "searching": "Suche…",
+    "count_nearby": "{{n}} Mechaniker in der Nähe",
+    "radius": "{{n}} km",
+    "providers_count": "{{count}} Werkstätten in der Nähe"
+  },
+  "location_perm": {
+    "title": "Standort aktivieren",
+    "description": "Erlauben Sie den Standortzugriff, damit wir die nächsten Mechaniker und Werkstätten in Ihrer Umgebung anzeigen können.",
+    "benefit_auto": "Automatische Suche nach Mechanikern in der Nähe",
+    "benefit_distance": "Exakte Entfernung zur Werkstatt",
+    "benefit_eta": "Ankunftszeit des Mechanikers",
+    "allow": "Zulassen",
+    "later": "Später",
+    "privacy": "Ihr Standort wird ausschließlich zur Suche nach nahegelegenen Mechanikern verwendet und nicht an Dritte weitergegeben."
+  },
+  "help": {
+    "title": "Hilfe & FAQ",
+    "intro": "Antworten auf häufige Fragen. Nicht gefunden? Schreiben Sie uns.",
+    "contact_support_cta": "Support kontaktieren",
+    "faq": {
+      "how_quick_request": {
+        "q": "Wie funktioniert die Schnellanfrage?",
+        "a": "Problem in einem Tap beschreiben — das System findet die nächste verfügbare Werkstatt in 30 Sekunden und zeigt Preis und Ankunftszeit."
+      },
+      "who_master": {
+        "q": "Wer sind die Mechaniker?",
+        "a": "Alle Mechaniker werden geprüft: Dokumente, Erfahrung, echte Kundenbewertungen. Wir zeigen nur verifizierte Werkstätten."
+      },
+      "price_calc": {
+        "q": "Wie wird der Preis berechnet?",
+        "a": "Der Preis wird vor Arbeitsbeginn fixiert. Die Werkstatt sieht das Problem und den Standort und nennt einen Festpreis. Keine versteckten Kosten."
+      },
+      "cancel_request": {
+        "q": "Kann ich stornieren?",
+        "a": "Ja — kostenlos vor Ankunft. Nach Ankunft kann eine Anfahrtsgebühr fällig werden (in der Anfrage angezeigt)."
+      },
+      "contact_master": {
+        "q": "Wie kontaktiere ich die Werkstatt?",
+        "a": "Nach Annahme öffnen sich Chat- und Anruf-Buttons. Kontakt bleibt bis zum Auftragsabschluss verfügbar."
+      },
+      "safety": {
+        "q": "Ist das sicher?",
+        "a": "Alle Zahlungen über sicheres Treuhandkonto. Geld wird erst nach Ihrer Bestätigung freigegeben."
+      },
+      "payment": {
+        "q": "Wie zahle ich?",
+        "a": "Karte, Apple Pay oder Google Pay in der App. Kein Bargeld an die Werkstatt nötig."
+      },
+      "reviews": {
+        "q": "Wie hinterlasse ich eine Bewertung?",
+        "a": "Nach Auftragsabschluss erhalten Sie eine Benachrichtigung. Bewerten Sie mit 1–5 Sternen und einem kurzen Kommentar."
+      }
+    }
+  },
+  "support": {
+    "title": "Support kontaktieren",
+    "intro": "Beschreiben Sie Ihr Problem — wir antworten innerhalb von 24 Stunden.",
+    "email": "E-Mail",
+    "call": "Anrufen",
+    "subject_label": "Betreff",
+    "subject_placeholder": "Kurz: worum geht es",
+    "message_label": "Nachricht",
+    "message_placeholder": "Erzählen Sie mehr…",
+    "send": "Senden",
+    "sending": "Wird gesendet…",
+    "message_required": "Bitte Nachricht eingeben",
+    "sent_title": "Fertig",
+    "sent_body": "Nachricht gesendet. Wir melden uns innerhalb von 24 Stunden.",
+    "eta_note": "Durchschnittliche Antwortzeit — 4 Stunden an Werktagen."
+  },
+  "about": {
+    "title": "Über die App",
+    "tagline": "AutoService — der Werkstatt-Marktplatz neuer Generation. Finden Sie eine verifizierte Werkstatt in einer Minute.",
+    "what_we_do": "Was wir tun",
+    "what_we_do_body": "Wir verbinden Fahrer mit verifizierten Werkstätten und mobilen Mechanikern. Festpreise, echte Ankunftszeit, transparente Bewertungen.",
+    "cities": "Abdeckung",
+    "cities_body": "Aktuell in Berlin (Deutschland) und Kiew (Ukraine). Bald: Hamburg, München, Lwiw.",
+    "legal_links": "Rechtliches",
+    "website": "autoservice.com"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "last_updated": "Zuletzt aktualisiert",
+    "intro": "Diese Bedingungen regeln die Nutzung von AutoService. Mit der Kontoerstellung akzeptieren Sie diese Bedingungen.",
+    "sections": {
+      "acceptance": {
+        "title": "Akzeptanz",
+        "body": "Mit der Nutzung der App bestätigen Sie, dass Sie diese Bedingungen gelesen und akzeptiert haben. Andernfalls — nutzen Sie den Dienst nicht."
+      },
+      "service_description": {
+        "title": "Dienstbeschreibung",
+        "body": "AutoService ist ein Marktplatz, der Kunden und Werkstätten verbindet. Wir führen keine Reparaturen selbst durch — Mechaniker arbeiten als unabhängige Auftragnehmer."
+      },
+      "accounts": {
+        "title": "Konten",
+        "body": "Ein Konto ist erforderlich. Sie sind für die Passwortsicherheit verantwortlich. Eine Person — ein Konto."
+      },
+      "user_obligations": {
+        "title": "Nutzerpflichten",
+        "body": "Keine Nutzung für illegale Zwecke. Kein Missbrauch von Mechanikern oder Kunden. Korrekte Angaben."
+      },
+      "payments": {
+        "title": "Zahlungen",
+        "body": "Zahlungen über sicheres Treuhandkonto. Plattformgebühr — 10% des Auftragswerts, zulasten der Werkstatt."
+      },
+      "cancellation": {
+        "title": "Stornierung",
+        "body": "Kostenlos vor Ankunft. Nach Ankunft kann eine Anfahrtsgebühr nach Tarif der Werkstatt anfallen."
+      },
+      "liability": {
+        "title": "Haftung",
+        "body": "Die Arbeitsqualität liegt in der Verantwortung der Werkstatt. Die Plattform haftet nicht direkt, hilft aber bei Streitfällen."
+      },
+      "changes": {
+        "title": "Änderungen",
+        "body": "Wir können die Bedingungen anpassen. Wesentliche Änderungen — 30 Tage Vorlauf per Push und E-Mail."
+      },
+      "governing_law": {
+        "title": "Anwendbares Recht",
+        "body": "Streitfälle werden nach dem Recht des Registrierungslandes gelöst (Deutschland für DE-Region, Ukraine für UA-Region)."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Fragen zu Bedingungen: legal@autoservice.com"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "last_updated": "Zuletzt aktualisiert",
+    "intro": "Wir nehmen Ihre Daten ernst. Diese Erklärung beschreibt, was wir sammeln, wie wir es nutzen und welche Rechte Sie haben.",
+    "sections": {
+      "data_we_collect": {
+        "title": "Welche Daten wir sammeln",
+        "body": "Kontaktdaten (E-Mail, Telefon), Standort (nur bei geöffneter App), Bestellverlauf, Bewertungen."
+      },
+      "how_we_use": {
+        "title": "Wie wir sie nutzen",
+        "body": "Für die Suche nach nahegelegenen Werkstätten, Preisberechnung, Zahlungsabwicklung, Auftragskommunikation und Service-Verbesserung."
+      },
+      "sharing": {
+        "title": "Weitergabe",
+        "body": "Werkstätten erhalten nur das Minimum: Name, Standort (für Treffen) und Problembeschreibung. Kontakt öffnet sich nach Annahme."
+      },
+      "storage": {
+        "title": "Speicherung",
+        "body": "Daten werden in sicheren EU-Rechenzentren gespeichert (DSGVO-konform). Bestellverlauf — 3 Jahre, danach anonymisiert."
+      },
+      "rights": {
+        "title": "Ihre Rechte",
+        "body": "Sie können Kopie, Korrektur oder Konto-Löschung anfordern. E-Mail: privacy@autoservice.com."
+      },
+      "cookies": {
+        "title": "Cookies & Tracking",
+        "body": "Wir nutzen technische Cookies für den Betrieb. Analytics ist anonym — keine Datenverkäufe an Werbetreibende."
+      },
+      "children": {
+        "title": "Kinder",
+        "body": "Der Dienst ist nicht für Personen unter 18 gedacht. Wir sammeln keine Daten von Kindern."
+      },
+      "changes": {
+        "title": "Änderungen der Richtlinie",
+        "body": "Wesentliche Änderungen kündigen wir vorab per Push und E-Mail an."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "DSB (Datenschutzbeauftragter): privacy@autoservice.com"
+      }
+    }
+  },
+  "quick_request": {
+    "problem_title": "Was ist das Problem?",
+    "helper": "Schnelle Anfahrt der Werkstatt",
+    "service_chip": "Service",
+    "request_chip": "Anfrage",
+    "problem_chip": "Problem",
+    "route_chip": "Route",
+    "find_workshop": "Werkstatt finden",
+    "location_label": "Standort",
+    "inspection_title": "Was vor dem Kauf prüfen?",
+    "inspection_helper": "Experte prüft das Auto vor dem Kauf",
+    "selection_title": "Welches Auto suchen wir?",
+    "selection_helper": "Unser Experte findet und prüft",
+    "delivery_title": "Woher überführen?",
+    "delivery_helper": "Fahrzeug-Überführung in Europa",
+    "problems": {
+      "engine_start_failure": "Springt nicht an",
+      "battery": "Batterie leer",
+      "tires": "Reifenpanne",
+      "tow": "Abschleppen",
+      "brakes": "Bremsen",
+      "electrical": "Elektrik",
+      "noise": "Komische Geräusche",
+      "general": "Anderes",
+      "pre_purchase_check": "Pre-Kauf-Inspektion",
+      "body_check": "Karosserie-Check",
+      "engine_check": "Motor-Check",
+      "diagnostic_scan": "OBD-Diagnose"
+    }
+  },
+  "garage": {
+    "title": "Meine Garage",
+    "auth_title": "Anmelden für Garagen-Zugang",
+    "auth_btn": "Anmelden",
+    "empty_title": "Garage ist leer",
+    "empty_text": "Fügen Sie Ihr Auto hinzu für schnelle Werkstattsuche",
+    "add_btn": "Auto hinzufügen",
+    "add_modal_title": "Auto hinzufügen",
+    "brand_label": "Marke *",
+    "brand_placeholder": "z.B. BMW",
+    "model_label": "Modell *",
+    "model_placeholder": "z.B. X5",
+    "year_label": "Baujahr",
+    "year_placeholder": "2020",
+    "vin_label": "FIN",
+    "vin_placeholder": "FIN-Nummer",
+    "save_btn": "Hinzufügen",
+    "vehicle_year": "{{year}}",
+    "vin_prefix": "FIN: {{vin}}",
+    "delete_title": "Auto löschen?",
+    "delete_body": "Kann nicht rückgängig gemacht werden",
+    "delete_cancel": "Abbrechen",
+    "delete_confirm": "Löschen",
+    "error_brand_model": "Marke und Modell angeben",
+    "error_add": "Konnte Auto nicht hinzufügen",
+    "error_delete": "Konnte Auto nicht löschen"
+  },
+  "quotes": {
+    "title": "Meine Anfragen",
+    "subtitle": "Aufträge an einem Ort",
+    "auth_title": "Anmelden für Anfragen-Übersicht",
+    "auth_btn": "Anmelden",
+    "tab_quotes": "Anfragen ({{n}})",
+    "tab_bookings": "Termine ({{n}})",
+    "empty_quotes_title": "Keine Anfragen",
+    "empty_quotes_text": "Eine Werkstatt-Anfrage erstellen",
+    "create_quote_btn": "Anfrage erstellen",
+    "empty_bookings_title": "Keine Termine",
+    "empty_bookings_text": "Termine erscheinen nach Annahme",
+    "quote_id": "Anfrage #{{id}}",
+    "service_default": "Service",
+    "org_default": "Werkstatt",
+    "no_description": "Keine Beschreibung",
+    "responses_count": "{{n}} Antworten",
+    "expired": "Abgelaufen",
+    "ttl_left": "noch {{time}}",
+    "status": {
+      "pending": "Wartend",
+      "in_review": "In Prüfung",
+      "responded": "Hat Antworten",
+      "accepted": "Angenommen",
+      "cancelled": "Storniert",
+      "confirmed": "Bestätigt",
+      "in_progress": "Läuft",
+      "completed": "Abgeschlossen"
+    }
+  },
+  "city_select": {
+    "title": "Stadt wählen",
+    "intro": "Wir zeigen Werkstätten in der Nähe des Stadtzentrums",
+    "providers_count_zero": "Keine Werkstätten",
+    "providers_count_one": "{{count}} Werkstatt",
+    "providers_count_other": "{{count}} Werkstätten"
+  }
+}

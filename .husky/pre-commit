@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Git pre-commit hook — runs Cyrillic guard on staged frontend files.
+# Enable locally by running:
+#   git config core.hooksPath .husky
+exec bash "$(git rev-parse --show-toplevel)/scripts/check-cyrillic.sh"
